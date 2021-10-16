@@ -21,7 +21,7 @@ Before starting, you must install Terraform. It is quite easy, you can look at t
 
 You first need to provide access keys (https://www.youtube.com/watch?v=JvtmmS9_tfU) in the **providers.tf** file. As mentioned in the introduction project, this is not a good practice in AWS as someone could fetch your keys and use them for himself to access your resources
 
-Then you need to create a KeyPair to access your access instances via SSH and then put the name of the KP in the **ec.tf** file inside the **key_name** variable (there are two variables, you need to change both).
+Then you need to create a KeyPair to access your access instances via SSH and then put the name of the KP in the **ec2.tf** file inside the **key_name** variable (there are two variables, you need to change both).
 
 After that, you need to go to the root directory of the project and type **terraform init**
 
