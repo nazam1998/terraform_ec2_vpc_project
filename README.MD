@@ -2,7 +2,7 @@
 
 ## Description
 
-A simple project that deploys a VPC with 2 instances in it with a Nat Gateway for the private Subnet
+A simple project that deploys a VPC with 2 instances in it with a Nat Gateway for the private Subnet.
 Be careful, you will probably need to pay a little bit in order to use these resources.
 Nat Gateway costs 0.5$ per hour and if you are creating an AWS account for the first time, you will be charged ~1$ the first time, but you will get refund. It is just a security to actually check if you are using an actual card and not some fake thing.
 
