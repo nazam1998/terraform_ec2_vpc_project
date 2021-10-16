@@ -3,7 +3,7 @@ resource "aws_instance" "public_ec2" {
   instance_type = "t2.micro"
   vpc_security_group_ids =  [aws_security_group.allow_ssh.id]
   subnet_id = aws_subnet.public_subnet_a.id
-  key_name = "MyKeyPair"
+  key_name = ""
 
   tags = {
     Name = "My Public EC2 Instance"
@@ -18,7 +18,7 @@ resource "aws_instance" "private_ec2" {
   instance_type = "t2.micro"
   vpc_security_group_ids =  [aws_security_group.allow_ssh.id]
   subnet_id = aws_subnet.private_subnet_a.id
-  key_name = "MyKeyPair"
+  key_name = ""
 
   tags = {
     Name = "My Private EC2 Instance"
